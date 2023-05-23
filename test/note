@@ -1,0 +1,21 @@
+
+/**
+ * It is nothing but checking the expection behaviour is same as actual
+ * 
+ * functional testing - testing the actual 
+ * 
+ * Test Driven Development (TDD) test -- testing is coming in the very begining of writing the code.
+ * if it is correctly written then it is 100% bug free code. 
+ * 
+ * 
+ * Unit testing --> Testing a unit component or functional level
+ * 
+ * Integration testing --> testing two or more components or functions is know as integration testing.
+ * 
+ */
+ /*unit testing is done by the help of mocking. it is only useful here
+ there is no other place where mocking is required or used
+
+ we
+  
+
