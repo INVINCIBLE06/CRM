@@ -110,4 +110,11 @@ describe("test findAll method", () =>
             message : "Internal Server Error"
          });
     })
+    /**
+     * Testing one for update
+     */
+    it("Testing the scenario while updating the code", () =>
+    {
+
+    });
 });

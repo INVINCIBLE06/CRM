@@ -13,9 +13,21 @@
  * Integration testing --> testing two or more components or functions is know as integration testing.
  * 
  */
- /*unit testing is done by the help of mocking. it is only useful here
+
+
+ unit testing is done by the help of mocking. it is only useful here
  there is no other place where mocking is required or used
 
- we
-  
+ 1. We want request body
+ 2. call the rest api.
+ 3. active database :- new databse which is primarily for testing
+ 4. test and validate the actual response
+
+ Q. For making the rest call ?
+ ans. We would be using " supertest " library.
+
+ Q. test database
+ ans. Inmemory mongodb. It is a npm dependencies. It's very light weight. name of dependency is " mongodb-memory-server " 
+
+ in the test folder we will create the file " db.js ". 
 
