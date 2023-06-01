@@ -19,13 +19,14 @@ db.once("open",()=>{
     init();
 });
 
-require('./routes/auth.routes')(app);
-require('./routes/user.routes')(app);
-require('./routes/movie.routes')(app);
-require('./routes/theatre.routes')(app);
-require('./routes/booking.route')(app);
-require('./routes/payment.routes')(app);
+require('./routes/auth.route')(app);
+require('./routes/user.route')(app);
+require('./routes/ticket.route')(app);
+// require('./routes/theatre.routes')(app);
+// require('./routes/booking.route')(app);
+// require('./routes/payment.routes')(app);
 
-module.exports = app.listen(serverConfig.PORT,()=>{
+module.exports = app.listen(serverConfig.PORT,()=>
+{
     console.log(`#### connected to server at port no.: ${serverConfig.PORT} ####`);
-})
+}); 
